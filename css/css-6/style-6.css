@@ -1,0 +1,257 @@
+/*  css with cart  */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.w-w {
+    color: white;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+/* ***************************************** */
+
+
+
+/* ********************************************************************** */
+
+.tebb table {
+    width: 80%;
+    margin: 100px 0 100px 10%;
+    height: 400px;
+    border: none;
+}
+
+
+.tebb table td,
+th {
+    position: relative;
+    padding: 20px;
+}
+
+.tebb table img {
+    width: 200px;
+}
+
+.tebb table .remo {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background-color: var(--color-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    left: 35%;
+    top: 45%;
+    -o-transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    transition: 1s ease;
+}
+
+.tebb table .remo:hover {
+    background-color: red;
+    color: white;
+    -o-transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    transition: 1s ease;
+}
+
+/* quantity */
+
+.tebb table .but-inp {
+    position: relative;
+    top: -9%;
+}
+
+
+.but-inp .input-group input {
+    width: 50px;
+    height: 40px;
+    margin-top: 25px;
+    text-align: center;
+    color: black;
+    outline: none;
+    border: 1px solid rgb(194, 194, 194);
+}
+
+.but-inp .input-group button {
+    width: 30px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: white;
+    border: 1px solid var(--color-1);
+    transition: all 0.5s ease;
+    border-radius: 2px;
+}
+
+.but-inp .input-group button:hover {
+    background-color: var(--color-1);
+    color: white;
+    box-shadow: 2px 2px 4px black;
+    cursor: pointer;
+}
+
+
+/* *********************************************************************************************** */
+
+.cart-about {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 100px;
+}
+
+.cart-about .cart-left .up-cart button {
+    margin: 10px 10px 10px 0;
+    width: 250px;
+    height: 35px;
+    background-color: var(--color-1);
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: none;
+    transition: all .5s ease;
+}
+
+.cart-about .cart-left .up-cart button:hover {
+    box-shadow: 2px 2px 5px 1px black;
+    text-shadow: 2px 2px 5px 1px black;
+}
+
+.cart-about .cart-left .up-cart .shopp {
+    background-color: white !important;
+    border: 1px solid var(--color-1);
+    color: var(--color-1) !important;
+}
+
+
+.cart-left .bottm-cart h1 {
+    margin: 35px 15px 15px 0;
+}
+
+.cart-left .bottm-cart p {
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+
+.cart-left .bottm-cart .inpoutt input {
+    width: 350px;
+    height: 35px;
+    margin: 15px 15px 15px 0;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #777777;
+    padding-left: 10px;
+}
+
+.cart-left .bottm-cart .inpoutt button {
+    width: 150px;
+    height: 35px;
+    background-color: var(--color-1);
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border: none;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.cart-left .bottm-cart .inpoutt button:hover {
+    box-shadow: 2px 2px 5px 1px black;
+    text-shadow: 2px 2px 5px 1px black;
+}
+
+.cart-about .cart-right h1 {
+    margin: 20px 0 10px 80px;
+}
+
+.cart-about .cart-right table tr .supp {
+    padding: 0 130px 0 0;
+}
+
+.cart-about .cart-right button {
+    width: 250px;
+    height: 40px;
+    background-color: var(--color-1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+
+
+.cart-about .cart-right button:hover {
+    box-shadow: 0px 2px 3px 1px black;
+    text-shadow: 2px 2px 5px 1px black;
+}
+
+.checkout-det .link-login {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+    border: 1px solid #777777;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.checkout-det .link-login a {
+    text-decoration: none;
+    color: var(--color-1);
+}
+
+.checkout-det .link-login {
+    color: #777777;
+}
+
+.checkout-det .detals {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+

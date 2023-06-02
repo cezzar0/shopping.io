@@ -1,0 +1,48 @@
+/*  thanks css pages  */
+
+/* -------------------------------------
+-------------------------------THANK YOU
+---------------------------------------*/
+
+.thanks{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.thanks img{
+    width:200px;
+    margin-right:20px;
+}
+ 
+.content-thanks {
+    text-align: center;
+}
+
+.thanks h1{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.thanks p{
+    color: #777777;
+    margin-bottom: 30px;
+}
+
+.thanks a button{
+    width: 150px;
+    height: 40px;
+    background-color: indigo;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+
+
+

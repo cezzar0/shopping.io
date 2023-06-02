@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    color: var(--color-1);
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.checkout-det .link-login {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+    border: 1px solid #777777;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.checkout-det .link-login a {
+    text-decoration: none;
+    color: blue;
+}
+
+.checkout-det .link-login {
+    color: #777777;
+}
+
+.checkout-det .detals {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+/* -----------------------------------------------.
+---------------checkout-det .detals .detals-right} 
+-----------------------------------------------------*/
+
+
+.checkout-det .detals .detals-left .country {
+    border: 1px solid #777777;
+    width: 90%;
+    height: 95%;
+    padding: 50px 50px;
+    margin-top: 20px;
+    margin-right: 50px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.checkout-det .detals .detals-left .country .names{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.checkout-det .detals .detals-left .country .names .First-namee input{
+    width: 200px;
+    height: 35px;
+    outline: none;
+}
+
+
+.checkout-det .detals .detals-left .country .names .last-namee input{
+    width: 200px;
+    height: 35px;
+    outline: none;
+}
+
+.checkout-det .detals .detals-left .country .companyy input{
+    width: 450px;
+    height: 35px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.checkout-det .detals .detals-left .country .companyy{
+    margin: 10px 0 ;
+}
+
+.checkout-det .detals .detals-left .country select{
+    width: 530px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid #777777;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+
+.checkout-det .detals .detals-left .country .addres input{
+    width: 450px;
+    height: 35px;
+    outline: none;
+    border: 1px solid #777777;
+    margin: 10px 0;
+    padding-left: 20px;
+
+}
+
+
+.checkout-det .detals .detals-left .country .cheeck .creaat{
+    display: flex;
+    margin: 30px 0 20px 0;
+}
+
+.checkout-det .detals .detals-left .country .cheeck .creaat input{
+    margin-right: 5px;
+}
+
+.checkout-det .detals .detals-left .country .cheeck .shiip{
+    display: flex;
+}
+
+.checkout-det .detals .detals-left .country .cheeck .shiip input{
+    margin-right: 5px;
+}
+
+.checkout-det .detals .detals-left .country .text-comment{
+    margin: 20px 0;
+}
+
+.checkout-det .detals .detals-left .country .text-comment input{
+    width: 450px; 
+    height: 150px;
+    padding-left: 20px;
+    text-align: start;
+    margin-top: 10px;
+    outline: none;
+}
+
+.checkout-det .detals .detals-right .copon-codee{
+    width: 100%;
+    border: 1PX solid #777777;
+    padding: 50px 100px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.checkout-det .detals .detals-right .copon-codee .copoonu{
+    display: flex;
+
+}
+
+.checkout-det .detals .detals-right .copon-codee p {
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+
+.checkout-det .detals .detals-right .copon-codee input {
+    width: 225px;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.checkout-det .detals .detals-right .copon-codee button {
+    margin-left: 8px;
+    width: 70px;
+    height: 30px;
+    background-color: var(--color-1);
+    color: white;
+    letter-spacing: 2px;
+    border: none;
+    transition: all.5s ease;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-det .detals .detals-right .copon-codee button:hover {
+    transform: translateX(5px);
+    -webkit-transform: translateX(5px);
+    -moz-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    -o-transform: translateX(5px);
+}
+
+
+.checkout-det .detals .detals-right .your-order {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px 20px 40px;
+    margin-top: 20px;
+}
+
+
+.checkout-det .detals .detals-right .t-shirtt {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px 20px 40px;
+
+}
+
+.checkout-det .detals .detals-right .border {
+    border: 1px solid #777777;
+    margin-top: -2vh;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.checkout-det .detals .detals-right .border .pay-money {
+    width: 450px;
+    height: 50px;
+    border: 1px solid var(--color-1);
+    margin: 10px 10px 20px 30px;
+    color: var(--color-1);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.checkout-det .detals .detals-right .border button {
+    width: 450px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-1);
+    color: white;
+    letter-spacing: 3px;
+    margin: 30px;
+    transition: all .5s ease;
+    font-size: 1rem;
+}
+
+.checkout-det .detals .detals-right .border button:hover {
+    box-shadow: 2px 2px 5px 1px black;
+    text-shadow: 2px 2px 5px 1px black;
+}
+
+

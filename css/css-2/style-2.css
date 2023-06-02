@@ -1,0 +1,160 @@
+/* Css About  */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.w-w {
+    color: white;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+/* ***************************************** */
+
+.singell-pro {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding-left: 8%;
+}
+
+.singell-pro a {
+    text-decoration: none;
+    color: var(--color-1);
+    padding: 10px;
+    font-size: small;
+    font-weight: bold;
+}
+
+
+.singell-pro p {
+    padding: 10px;
+}
+
+/* *************************************************************888888 */
+
+.about-one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+}
+
+
+.about-one .about-img img {
+    width: 550px;
+    margin-right: 100px;
+}
+
+/* obut title div two  */
+
+.about-one .about-tit {
+    position: relative;
+    line-height: 25px;
+}
+
+
+
+.about-one .about-tit h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-one .about-tit p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #777777;
+}
+
+
+/* title team with section two */
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateX(-2px);
+}
+
+.team div {
+    margin: 1%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    overflow: hidden;
+    width: 200%;
+}
+
+.team h1 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.team h3 {
+    font-size: 12px;
+    color: #777777;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.team p {
+    line-height: 20px;
+    align-items: center;
+    font-size: 9rem;
+    transform: translateY(400%);
+    transition: 0.8s;
+}
+
+.team div:hover {
+    transform: translateY(-2%);
+}
+
+.team div:hover p {
+    transform: translateY(0%);
+}
+
+.team img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.team p {
+    font-size: small;
+}
+
+
+/* **************************************************** */

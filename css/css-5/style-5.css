@@ -1,0 +1,93 @@
+
+/* css with Check_out  */
+
+/* 
+.checkout-det .detals .detals-right .copon-codee{
+    width: 100%;
+    border: 1PX solid #777777;
+    padding: 50px 100px ;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.checkout-det .detals .detals-right .copon-codee p{
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+
+.checkout-det .detals .detals-right .copon-codee input{
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.checkout-det .detals .detals-right .copon-codee button{
+    margin-left: -7px;
+    width: 70px;
+    height: 30px;
+    background-color: indigo;
+    color: white;
+    letter-spacing: 2px;
+    border: none;
+    transition: all.5s ease;
+}
+
+.checkout-det .detals .detals-right .copon-codee button:hover{
+    box-shadow: 2px 2px 5px 1px black;
+    text-shadow: 2px 2px 5px 1px black;
+}
+
+
+.checkout-det .detals .detals-right .your-order{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px 20px 40px;
+    margin-top: 20px;
+}
+
+
+.checkout-det .detals .detals-right .t-shirtt{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px 20px 40px;
+
+}
+
+.checkout-det .detals .detals-right .border{
+    border: 1px solid #777777;
+    margin-top: 10px;
+}
+
+.checkout-det .detals .detals-right .border .pay-money{
+    width: 450px;
+    height: 50px;
+    border: 1px solid indigo;
+    margin: 10px 10px 20px 30px ;
+    color: indigo;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.checkout-det .detals .detals-right .border button{
+    width: 450px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: indigo;
+    color: white;
+    letter-spacing: 3px;
+    margin: 30px;
+    transition: all .5s ease;
+    font-size: 1rem;
+}
+
+.checkout-det .detals .detals-right .border button:hover{
+    box-shadow: 2px 2px 5px 1px black;
+    text-shadow: 2px 2px 5px 1px black;
+} */

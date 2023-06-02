@@ -1,0 +1,108 @@
+
+/* css with Single projcet  */
+
+/* <!-- -----------one project------------- -->
+ */
+.one-project .container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.one-project .container .clo-te {
+    margin-right: 100px;
+}
+
+.one-project .container .clo-te img {
+    border-radius: 2%;
+}
+
+.one-project .container .about-clo h2 {
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.one-project .container .about-clo p {
+    color: #202020;
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+.one-project .container .about-clo .pary2 {
+    margin: 15px 0;
+}
+
+
+.one-project .container .about-clo .money {
+    font-size: 1.5rem;
+    color: var(--color-1);
+    margin-bottom: 15px;
+}
+
+
+.one-project .container .about-clo .label-col label {
+    padding: 10px;
+}
+
+.one-project .container .about-clo .but-inp .input-group {
+    display: flex;
+}
+
+/* .one-project .container .about-clo*/ .but-inp .input-group input { 
+    width: 50px;
+    height: 40px;
+    margin-top: 25px;
+    text-align: center;
+    color: black;
+    outline: none;
+    border: 1px solid rgb(194, 194, 194);
+}
+
+/* .one-project .container .about-clo*/  .but-inp .input-group button {
+    width: 30px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: white;
+    border: 1px solid var(--color-1);
+    transition: all 0.5s ease;
+    border-radius: 2px;
+}
+
+/* .one-project .container .about-clo*/ .but-inp .input-group button:hover {
+    background-color: var(--color-1);
+    color: white;
+    box-shadow: 2px 2px 4px black;
+    cursor: pointer;
+}
+
+
+.one-project .container .about-clo .addd {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:var(--color-1);
+    margin-bottom: 100px;
+    transition: all .5s ease;
+}
+
+.one-project .container .about-clo .addd:hover {
+    text-shadow: 5px 5px 7px black;
+    box-shadow: 1px 1px 15px 2px black;
+
+}
+
+
+.one-project .container .about-clo p .add-to-cart {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
